@@ -1,0 +1,29 @@
+.training {
+	.training__card {
+		display: flex;
+		align-items: center;
+		gap: 30px;
+		.training__title {
+			width: 35%;
+			font-size: 1.875rem;
+			font-weight: 700;
+			color: #0b0e14;
+			line-height: 37px;
+		}
+		.training__right {
+			width: 65%;
+			display: flex;
+			gap: 30px;
+		}
+	}
+	.training__text {
+		margin-top: 50px;
+		margin-bottom: 100px;
+		p {
+			font-size: 1.125rem;
+			line-height: 21px;
+			color: #191e29;
+			margin-bottom: 10px;
+		}
+	}
+}

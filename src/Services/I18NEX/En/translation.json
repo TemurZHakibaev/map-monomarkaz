@@ -1,0 +1,93 @@
+{
+	"home": {
+		"header": {
+			"navTitle1": "Home",
+			"navTitle2": "About us",
+			"navTitle3": "Contacts",
+			"navTitle": "Cartographic Center",
+			"navSubTitle": "Welcome to the Cartographic Center! To an enterprise with sufficient experience in the production of cartographic materials and printing products",
+			"navHelp": "The center provides services for the creation of cartographic materials and the production of printed products.",
+			"navBtn": "All services",
+			"navCity": "Tashkent",
+			"navLink": "Useful links:",
+			"navVisitSite": "Site visited per day:",
+			"navVisitSIteAll": "all"
+		},
+		"about": {
+			"title": "About us",
+			"subTitle-1-1": "The Cartographic Center of the Ministry of Defense of the Republic of Uzbekistan was established on December 23, 1921 as a defense enterprise.",
+			"subTitle-1-2": "The Cartographic Center performs printing works and special tasks for the creation of cartographic materials for various purposes.",
+			"subTitle-2-1": "The history of the creation of the cartographic service on the territory of the Republic of Uzbekistan dates back to 1866, when, at the direction of the Imperial Court of Russia, a military topographic department was created in Tashkent, under which lithography was formed on October 28, 1867, where the first topographic maps in Central Asia were produced.",
+			"subTitle-2-2": "In the period from 1918 to 1923, the personnel of the cartographic department completed work on compiling two-, ten- and forty-verst maps of Turkestan. However, in 1919, due to the severity of the Civil War, work was suspended, and all cartographers were transferred to perform drawing work on the instructions of the headquarters of the Turkestan Front.",
+			"subTitle-3": "In 1920, printing of cards, due to the withdrawal by the Commissariat of Finance for printing banknotes of a lithographic rapid printing machine and one manual machine, was carried out on the remaining manual machine. In 1921, the equipment was returned, but at the end of the year the printing department of the Council of the National Economy withdrew the lithographic machine for its own needs, which was returned only in 1923.",
+			"more": "more"
+		},
+		"services": {
+			"title": "Services",
+			"subTitle1": "Cartographic materials for various purposes",
+			"subTitle2": "Digital 3D terrain and object models",
+			"subTitle3": "Book and paper and magazine production",
+			"subTitle4": "Posters, labels and booklets",
+			"subTitle5": "Production capacity",
+			"search": "search"
+		},
+
+		"finance": {
+			"title": "Financial and economic reporting of our company",
+			"year": "year",
+			"quarter": "quarter",
+			"fileName": "Filename",
+			"download": "Download",
+			"look": "Look"
+		},
+		"ads": {
+			"title": "ANNOUNCEMENTS",
+			"tenders": "Tenders",
+			"social": "Social protection",
+			"vacancy": "Jobs"
+		},
+		"footer": {
+			"title1": "Contacts",
+			"title2": "Requisites",
+			"subTitle": "Cartographic Center! Production of cartographic materials and printed products",
+			"duty": "Duty",
+			"bookkeeping": "Bookkeeping",
+			"tg": "telegram"
+		}
+	},
+	"about": {
+		"title": "About us",
+		"title2": "History Mapmarkaz",
+		"title3": "Cartographer Heroes ",
+		"subTitle1-1": "The Cartographic Center of the Ministry of Defense of the Republic of Uzbekistan was established on December 23, 1921 as a defense enterprise.",
+		"subTitle1-2": "The Cartographic Center performs printing works and special tasks for the creation of cartographic materials for various purposes.",
+		"subTitle-2-1": "The history of the creation of the cartographic service on the territory of the Republic of Uzbekistan dates back to 1866, when, at the direction of the Imperial Court of Russia, a military topographic department was created in Tashkent, under which a lithography was formed on October 28, 1867, where the first topographic maps in Central Asia were produced.",
+		"subTitle-2-2": "In the period from 1918 to 1923, the personnel of the cartographic department completed work on compiling two-, ten- and forty-verst maps of Turkestan. However, in 1919, due to the severity of the Civil War, work was suspended, and all cartographers were transferred to perform drawing work on the instructions of the headquarters of the Turkestan Front.",
+		"subTitle-3-1": "In 1920, printing of cards, due to the withdrawal by the Commissariat of Finance for printing banknotes of a lithographic rapid printing machine and one manual machine, was carried out on the remaining manual machine. In 1921, the equipment was returned, but at the end of the year the printing department of the Council of the National Economy seized the lithographic machine for its own needs, which was returned only in 1923.",
+		"subTItle-3-2": "From 1919 to 1925, the Tashkent topographic school operated on the basis of the unit, which produced famous specialists who made a worthy contribution to the development of the topographic service.",
+		"subTitle-4-1": "On September 23, 1925, the cartographic part was transferred to the 'Geokartprom' association of manufacturing enterprises of the Military Topographic Directorate of the Headquarters of the Workers 'and Peasants' Red Army (RKKA).",
+		"subTitle-4-2": "On January 1, 1926, the cartographic part was transferred to the Military Topographic Department of the Turkestan Military District (TurkVO), and from June 4 of the same year, to the Central Asian Military District (SAVO).",
+		"subTitle-4-3": "On May 1, 1937, the unit became subordinate to the Office of Military Topographical Works No. 5.",
+		"subTitle-4-4": "Massive repressions in the country in 1937-38 also affected the Tashkent cartographic part. In 1937, most of the military personnel and specialists of the unit were dismissed from the ranks of the Red Army with the wording 'politically unreliable elements' and 'connection with enemies of the people.'",
+		"subTitle-4-5": "In this regard, in 1938, the Department of Military Topographic Works No. 5 from the city of Vitebsk (Belarus) was relocated to Tashkent, where a part came under the control of the formed SAVO Topographic Department.",
+		"section-2-title-1": "The use of photographic equipment",
+		"section-2-title-2": "Replacing the lithographic stone with a metal die-zinc",
+		"section-2-title-3": "Replacing old machines with flatbed printing machines",
+		"title4": "Cartographer Heroes",
+		"title5": "Training of draftsmen",
+		"title5-sub": "In 1949, the factory became a self-supporting state unitary enterprise.",
+		"title6": "Drill training of military personnel of the factory",
+		"title7": "Brigade of printers",
+		"title8": "The work of easel translators",
+		"title9": "Fleet of flat presses of the pressroom",
+		"title10": "Tashkent earthquake 04/26/1966",
+		"title11": "The factory building was partially destroyed as a result of the earthquake.",
+		"title12": "The use of photographic equipment",
+		"title13": "Replacing a lithographic stone with a metal mold-zinc",
+		"title14": "Replacing old machines with flatbed printing machines"
+	},
+	"contact": {
+		"title": "Connect with us",
+		"subTitle": "Use the form below to send us your comments or report any problems you encounter while searching for information on our website. We read all reviews carefully, but please note that we cannot respond to comments you submit."
+	}
+}

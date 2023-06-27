@@ -1,0 +1,126 @@
+.about {
+	background: url(../../../../assets/images//Home/home-bg.png);
+	padding: 150px 0;
+	.about__cards {
+		h2 {
+			font-size: 25px;
+			font-weight: 700;
+			display: block;
+		}
+		.about__cards__card {
+			display: flex;
+			.about__cards__card__img {
+				// width: 50%;
+				img {
+					width: 100%;
+				}
+			}
+			.about__cards__card__text {
+				width: 50%;
+			}
+		}
+
+		.about__cards__card:nth-child(2) {
+			.about__cards__card__text {
+				p:nth-child(3) {
+					margin-top: 2%;
+				}
+			}
+		}
+		.about__cards__card:nth-child(3) {
+			margin-top: -10%;
+			margin-left: 20%;
+
+			p {
+				margin-top: 4%;
+			}
+		}
+		.about__cards__card:nth-child(4) {
+			margin-top: -7%;
+			p {
+				margin-top: 8.125rem;
+			}
+			.about__cards__card__text__inside {
+				cursor: pointer;
+				font-size: 20px;
+				font-weight: 500;
+				color: #1d71b8;
+				display: flex;
+				align-items: center;
+				gap: 10px;
+				justify-content: end;
+				margin-top: 55px;
+				p {
+					margin: 0;
+				}
+				span {
+					margin-bottom: 2px;
+				}
+			}
+		}
+		.about__cards__card {
+			display: flex;
+			gap: 42px;
+			.about__cards__card__text {
+				h2 {
+					font-size: 50px;
+					font-family: "Montserrat";
+					font-weight: 700;
+					margin-top: 60px;
+					margin-bottom: 50px;
+				}
+				p {
+					text-indent: 30px;
+					font-size: 18px;
+					font-family: "Raleway";
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 678px) {
+	.about {
+		padding: 50px 0;
+		.about__cards {
+			.about__cards__card {
+				display: block;
+				.about__cards__card__img {
+					width: 100%;
+					img {
+						width: 100%;
+					}
+				}
+				.about__cards__card__text {
+					width: 100%;
+					p {
+						font-size: 12px;
+						text-indent: 12px;
+					}
+				}
+			}
+			.card2 {
+				display: block;
+				.about__cards__card__img {
+					display: none;
+				}
+				.about__cards__card__text {
+					width: 100%;
+					margin: 0;
+					p {
+						width: 100%;
+					}
+				}
+			}
+			.card3 {
+				display: block;
+				.about__cards__card__img {
+					display: none;
+				}
+			}
+		}
+	}
+	.about .about__cards .about__cards__card:nth-child(3) {
+		margin: 0;
+	}
+}

@@ -1,0 +1,240 @@
+.header {
+	background: url(../../../../assets/images/Home/home-bg.png);
+	position: relative;
+	// margin-bottom: 9.375rem;
+	.header__left {
+		width: 60%;
+		padding: 1.25rem 1.875rem;
+		.header__left__logo {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			img {
+				width: 60%;
+			}
+			select {
+				border: none;
+				outline: none;
+				font-weight: 600;
+				font-size: 1rem;
+				line-height: 1.25rem;
+				color: #191e29;
+				background: none;
+			}
+			.navbar {
+				display: none;
+				cursor: pointer;
+			}
+		}
+		.header__left__text {
+			width: 42.5rem;
+			margin-top: 3.125rem;
+			margin-bottom: 6.5rem;
+			.header__left__text__title {
+				font-family: "Montserrat";
+				font-weight: 700;
+				font-size: 3.625rem;
+				color: #0b0e14;
+				margin-bottom: 1.875rem;
+			}
+			.header__left__text__subTitle {
+				font-family: "Raleway";
+				font-weight: 400;
+				font-size: 1.25rem;
+				color: #6f6f6f;
+				white-space: break-spaces;
+				overflow: hidden;
+				text-overflow: ellipsis;
+			}
+		}
+		.header__left__services {
+			display: flex;
+			gap: 3.125rem;
+			margin-bottom: 2.3125rem;
+			.header__left__services__img {
+				width: 50%;
+				img {
+					width: 100%;
+				}
+			}
+			.header__left__services__text {
+				width: 16.875rem;
+				h4 {
+					font-family: "Raleway";
+					font-weight: 600;
+					font-size: 0.875rem;
+					color: #191e29;
+					line-height: 1.125rem;
+					margin-bottom: 1.875rem;
+				}
+				button {
+					font-weight: 500;
+					font-size: 1.125rem;
+					color: #ffffff;
+					background: #1d71b8;
+					box-shadow: 0rem 0.8396rem 2.4489rem rgba(21, 76, 238, 0.21);
+					padding: 0.875rem 1.5625rem;
+					border: none;
+					outline: none;
+				}
+			}
+		}
+		.header__left__useful {
+			background-color: #fff;
+			padding: 3.125rem 0;
+		}
+	}
+	.header__right {
+		background: #0b0e14;
+		padding-top: 4.75rem;
+		position: absolute;
+		right: 0;
+		top: 0;
+		z-index: 10;
+		width: 37%;
+		.header__right__list {
+			transition: 0.5s;
+			margin-bottom: 8.125rem;
+			display: flex;
+			gap: 15%;
+			justify-content: center;
+
+			.navbar {
+				visibility: hidden;
+				z-index: 999;
+			}
+			li {
+				a {
+					font-family: "Montserrat";
+					font-weight: 600;
+					font-size: 1rem;
+					line-height: 1.25rem;
+					color: rgba(255, 255, 255, 0.6);
+				}
+
+				.activeTitle {
+					color: #ffffff;
+					font-weight: 37.5rem;
+				}
+			}
+		}
+		.header__right__img {
+			display: flex;
+			justify-content: center;
+			margin-bottom: 6.1rem;
+			margin-top: -46px;
+			img {
+				width: 80%;
+				height: 70%;
+			}
+		}
+	}
+}
+
+.aboutHeader {
+	background-color: #fff !important;
+	height: 30vh !important;
+	overflow: hidden;
+}
+
+@media (max-width: 1000px) {
+	.aboutHeader {
+		height: 23vh !important;
+	}
+}
+
+@media (max-width: 678px) {
+	.header {
+		.header__left {
+			width: 100%;
+			.header__left__text {
+				.header__left__text__title {
+					font-size: 25px;
+					color: #0b0e14;
+				}
+				.header__left__text__subTitle {
+					font-size: 12px;
+				}
+			}
+			.header__left__logo {
+				select {
+					display: none;
+				}
+				.navbar {
+					display: block;
+					z-index: 999;
+				}
+			}
+			.header__left__services {
+				flex-direction: column-reverse;
+				.header__left__services__img {
+					width: 90%;
+					img {
+						width: 100%;
+					}
+				}
+				.header__left__services__text {
+					width: 100%;
+					h4 {
+						font-size: 12px;
+						line-height: 130%;
+						margin-top: 20px;
+						margin-bottom: 15px;
+					}
+					button {
+						width: 100%;
+						font-size: 14px;
+						padding: 15px 20px;
+					}
+				}
+			}
+		}
+
+		.header__right {
+			position: initial;
+			display: block;
+			width: 100%;
+			nav {
+				.header__right__img {
+					width: 90%;
+					margin-top: 0;
+					img {
+						width: 80%;
+					}
+				}
+
+				.header__right__list {
+					display: inline-block;
+					transform: translateX(0) scale(0);
+					opacity: 0;
+					transition: 0.5s;
+					position: absolute;
+					top: 10px;
+					left: 20%;
+					padding: 20px;
+					position: absolute;
+					// transform: translateX(100%);
+					.header__right__list__inside {
+						margin-top: 20px;
+					}
+					&.activeNavBar {
+						transform: translateX(100%) scale(1);
+						opacity: 1;
+						transition: 0.5s;
+						background-color: #fff;
+						width: 40%;
+						a {
+							display: block;
+							color: #000;
+							font-size: 20px;
+							line-height: 20px;
+							.activeTitle {
+								color: #0b0e14 !important;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,59 @@
+.aboutHeader {
+	position: relative;
+	height: 260px;
+	overflow: hidden;
+	background-color: #fff;
+	.aboutHeader__left {
+		width: 60%;
+		padding: 1.25rem 1.875rem;
+		.aboutHeader__left__logo {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			select {
+				border: none;
+				outline: none;
+				font-weight: 600;
+				font-size: 1rem;
+				line-height: 1.25rem;
+				color: #191e29;
+				background: none;
+			}
+		}
+		.aboutHeader__left__title {
+			font-weight: 700;
+			font-size: 3.125rem;
+			margin-top: 50px;
+			color: #0b0e14;
+			font-family: "Montserrat";
+		}
+	}
+	.aboutHeader__right {
+		position: absolute;
+		right: 0;
+		top: 0;
+		width: 37%;
+		background-color: #0b0e14;
+		.aboutHeader__right__list {
+			display: flex;
+			gap: 64px;
+			align-items: center;
+			justify-content: center;
+			padding: 50px 0;
+			li {
+				a {
+					color: #ffffff60;
+					font-weight: 600;
+				}
+			}
+		}
+		.aboutHeader__right__img {
+			display: flex;
+			justify-content: center;
+			img {
+				width: 80%;
+				height: 80%;
+			}
+		}
+	}
+}

@@ -1,0 +1,35 @@
+@font-face {
+	font-family: "Montserrat";
+	src: "../fonts/Raleway-Regular.ttf";
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "Montserrat";
+	src: "../fonts/Inconsolata_Condensed-Medium.ttf";
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: "Montserrat";
+	src: "../fonts/Inconsolata_Condensed-Bold.ttf";
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: "Raleway";
+	src: "../fonts/Raleway-Regular.ttf";
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "Raleway";
+	src: "../fonts/Raleway-Medium.ttf";
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: "Raleway";
+	src: "../fonts/Raleway-Bold.ttf";
+	font-weight: 700;
+}

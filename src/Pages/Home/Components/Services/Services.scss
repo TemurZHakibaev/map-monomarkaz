@@ -1,0 +1,56 @@
+.services {
+	background: url(../../../../assets/images/Home/home-dark-bg.png);
+	padding: 150px 0;
+	background-color: #191e29;
+	.services__title {
+		font-family: "Montserrat";
+		margin-bottom: 98px;
+		font-size: 50px;
+		color: #fff;
+	}
+	.services__card {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		column-gap: 25px;
+		row-gap: 50px;
+		.services__card__content {
+			width: 417px;
+			background-color: #282e3d;
+			.services__card__content__img {
+				img {
+					width: 100%;
+				}
+			}
+			.services__card__content__text {
+				padding: 20px 40px 39px;
+				h4 {
+					font-size: 20px;
+					font-weight: 600;
+					line-height: 26px;
+					text-align: center;
+					color: #fff;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 678px) {
+	.services {
+		padding: 50px 0;
+		.services__title {
+			font-size: 25px;
+			margin-bottom: 30px;
+		}
+		.services__card {
+			.services__card__content {
+				.services__card__content__text {
+					h4 {
+						font-size: 20px !important;
+					}
+				}
+			}
+		}
+	}
+}

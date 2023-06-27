@@ -1,0 +1,92 @@
+{
+	"home": {
+		"header": {
+			"navTitle1": "Bosh sahifa",
+			"navTitle2": "Biz haqimizda",
+			"navTitle3": "Bosh sahifa",
+			"navTitle": "Kartografiya markazi",
+			"navSubTitle": "Kartografiya markaziga xush kelibsiz! Kartografik materiallar va matbaa mahsulotlarini ishlab chiqarishda etarli tajribaga ega korxonaga",
+			"navHelp": "Markaz kartografik materiallar yaratish va bosma mahsulotlar ishlab chiqarish bo‘yicha xizmatlar ko‘rsatadi.",
+			"navBtn": "Barcha xizmatlar",
+			"navCity": "Tashkent",
+			"navLink": "Foydali havolalar:",
+			"navVisitSite": "Kuniga tashrif buyurilgan sayt:",
+			"navVisitSiteAll": "all"
+		},
+		"about": {
+			"title": "Biz haqimizda",
+			"subTitle-1-1": "Oʻzbekiston Respublikasi Mudofaa vazirligining Kartografiya markazi 1921-yil 23-dekabrda mudofaa korxonasi sifatida tashkil etilgan.",
+			"subTitle-1-2": "Kartografiya markazi turli maqsadlar uchun kartografik materiallar yaratish bo'yicha matbaa ishlari va maxsus vazifalarni bajaradi.",
+			"subTitle-2-1": "Oʻzbekiston Respublikasi hududida kartografiya xizmatining vujudga kelish tarixi 1866-yilga borib taqaladi, oʻshanda Rossiya imperatorlik sudi koʻrsatmasi bilan Toshkentda harbiy topografik boʻlim tashkil etilgan boʻlib, oktyabrda uning qoshida litografiya tashkil etilgan. 1867-yil 28-yilda Oʻrta Osiyoda ilk topografik xaritalar yaratilgan.",
+			"subTitle-2-2": "1918-1923-yillarda kartografiya bo‘limi xodimlari Turkistonning ikki, o‘n va qirq verstlik xaritalarini tuzish ishlarini yakunladilar. Biroq 1919-yilda fuqarolar urushi og‘irligi sababli ish to‘xtatilib, Turkiston fronti shtab-kvartirasi ko‘rsatmasi bilan barcha kartograflar chizmachilik ishlarini bajarishga o‘tkazildi.",
+			"subTitle-3": "1920 yilda Moliya Komissarligi tomonidan banknotlarni chop etish uchun litografik tez bosma mashinasi va bitta qo'lda ishlaydigan mashina olib qo'yilganligi sababli kartochkalarni chop etish qolgan qo'lda ishlaydigan mashinada amalga oshirildi. 1921 yilda asbob-uskunalar qaytarildi, ammo yil oxirida Xalq xo'jaligi kengashining matbaa bo'limi o'z ehtiyojlari uchun litografik mashinani olib tashladi, faqat 1923 yilda qaytarildi.",
+			"more": "Ko'proq"
+		},
+		"services": {
+			"title": "Xizmatlar",
+			"subTitle1": "Turli maqsadlar uchun kartografik materiallar",
+			"subTitle2": "Raqamli 3D er va ob'ekt modellari",
+			"subTitle3": "Kitob va qog'oz va jurnal ishlab chiqarish",
+			"subTitle4": "Plakatlar, yorliqlar va bukletlar",
+			"subTitle5": "Ishlab chiqarish quvvati",
+			"search": "Qidirmoq"
+		},
+		"finance": {
+			"title": "Kompaniyamizning moliyaviy va iqtisodiy hisoboti",
+			"year": "yil",
+			"quarter": "chorak",
+			"fileName": "Fayl nomi",
+			"download": "Yuklab olish",
+			"look": "Qaramoq"
+		},
+		"ads": {
+			"title": "E'lonlar",
+			"tender": "Tenderlar",
+			"social": "Ijtimoiy himoya",
+			"vacancy": "Ishlar"
+		},
+		"footer": {
+			"title1": "Kontaktlar",
+			"title2": "Rekvezitlar",
+			"subTitle": "Kartografiya markazi! Kartografik materiallar ishlab chiqarish va bosma mahsulotlar",
+			"duty": "Navbatchi",
+			"bookkeeping": "Buxgalteriya hisobi:",
+			"tg": "telegram"
+		}
+	},
+	"about": {
+		"title": "Biz haqimizda",
+		"title2": "Tarix Mapmarkaz",
+		"title3": "Kartograf qahramonlari",
+		"subTitle1-1": "Oʻzbekiston Respublikasi Mudofaa vazirligining Kartografiya markazi 1921-yil 23-dekabrda mudofaa korxonasi sifatida tashkil etilgan.",
+		"subTitle1-2": "Kartografiya markazi turli maqsadlar uchun kartografik materiallar yaratish bo'yicha matbaa ishlari va maxsus vazifalarni bajaradi.",
+		"subTitle-2-1": "O‘zbekiston Respublikasi hududida kartografiya xizmatining vujudga kelish tarixi 1866-yilga borib taqaladi, o‘shanda Rossiya imperator sudi ko‘rsatmasi bilan Toshkentda harbiy topografik bo‘lim tashkil etilgan bo‘lib, uning qoshida 1866 yilda litografiya tashkil etilgan. 1867-yil 28-oktabrda Oʻrta Osiyoda ilk topografik xaritalar yaratilgan.",
+		"subTitle-2-2": "1918-1923-yillarda kartografiya bo‘limi xodimlari Turkistonning ikki, o‘n va qirq verstlik xaritalarini tuzish ishlarini yakunladilar. Biroq 1919-yilda fuqarolar urushi og‘irligi sababli ish to‘xtatilib, Turkiston fronti shtab-kvartirasi ko‘rsatmasi bilan barcha kartograflar chizmachilik ishlarini bajarishga o‘tkazildi.",
+		"subTitle-3-1": "1920 yilda Moliya Komissarligi tomonidan banknotlarni chop etish uchun litografik tez chop etish mashinasi va bitta qo'lda ishlaydigan mashina olib qo'yilganligi sababli kartochkalarni chop etish qolgan qo'lda ishlaydigan mashinada amalga oshirildi. 1921 yilda jihozlar qaytarildi, ammo yil oxirida Xalq xo'jaligi kengashining bosmaxona bo'limi o'z ehtiyojlari uchun litografik mashinani tortib oldi, faqat 1923 yilda qaytarildi.",
+		"subTItle-3-2": "1919—1925-yillarda boʻlim negizida Toshkent topografiya bilim yurti faoliyat koʻrsatib, undan topografiya xizmati rivojiga munosib hissa qoʻshgan mashhur mutaxassislar yetishib chiqdi.",
+		"subTitle-4-1": "1925 yil 23 sentyabrda kartografik qism Ishchilar va Dehqonlar Qizil Armiyasi (RKKA) shtab-kvartirasining Harbiy topografik boshqarmasining 'Geokartprom' ishlab chiqarish korxonalari birlashmasiga topshirildi.",
+		"subTitle-4-2": "1926-yil 1-yanvarda kartografik qism Turkiston harbiy okrugi (TurkVO) Harbiy topografik boʻlimiga, oʻsha yilning 4-iyundan boshlab esa Oʻrta Osiyo harbiy okrugiga (SAVO) oʻtkazildi.",
+		"subTitle-4-3": "1937 yil 1 mayda bo'linma 5-sonli harbiy topografik ishlar boshqarmasiga bo'ysundi.",
+		"subTitle-4-4": "1937—38-yillarda oʻlkada boʻlgan ommaviy qatagʻonlar Toshkent kartografiya qismiga ham taʼsir koʻrsatdi. 1937 yilda qismning aksariyat harbiy xizmatchilari va mutaxassislari Qizil Armiya saflaridan 'siyosiy jihatdan ishonchsiz elementlar' va 'xalq dushmanlari bilan aloqa' so'zlari bilan bo'shatildi.",
+		"subTitle-4-5": "Shu munosabat bilan 1938 yilda Vitebsk (Belarus) shahridan 5-sonli harbiy topografik ishlar boshqarmasi Toshkentga koʻchirilib, bir qismi tuzilgan SAVO topografiya boshqarmasi tasarrufiga oʻtdi.",
+		"section-2-title-1": "Fotosurat asboblaridan foydalanish",
+		"section-2-title-2": "Replacing the lithographic stone with a metal die-zinc",
+		"section-2-title-3": "Eski mashinalarni tekis bosma mashinalarga almashtirish",
+		"title4": "Kartograf qahramonlari",
+		"title5": "Chizmachilarni tayyorlash",
+		"title5-sub": "1949 yilda zavod xo'jalik yurituvchi davlat unitar korxonasiga aylandi.",
+		"title6": "Zavod harbiy xizmatchilarining burg'ulash mashg'ulotlari",
+		"title7": "Printerlar brigadasi",
+		"title8": "Molbert tarjimonlarining ishi",
+		"title9": "Matbuot xonasining tekis presslari parki",
+		"title10": "Toshkent zilzilasi 26.04.1966",
+		"title11": "Zilzila natijasida zavod binosi qisman vayron bo'lgan.",
+		"title12": "Fotosurat asboblaridan foydalanish",
+		"title13": "Litografik toshni metall qolip-sink bilan almashtirish",
+		"title14": "Eski mashinalarni tekis bosma mashinalarga almashtirish"
+	},
+	"contact": {
+		"title": "Biz bilan bog'lanish",
+		"subTitle": "Bizga sharhlaringizni yuborish yoki veb-saytimizda ma'lumot qidirishda duch kelgan muammolar haqida xabar berish uchun quyidagi shakldan foydalaning. Biz barcha sharhlarni diqqat bilan o'qiymiz, lekin siz yuborgan sharhlarga javob bera olmasligimizni unutmang."
+	}
+}

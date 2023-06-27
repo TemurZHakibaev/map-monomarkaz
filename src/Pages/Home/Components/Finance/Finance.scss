@@ -1,0 +1,321 @@
+.finance {
+	background: url(../../../../assets/images//Home/home-bg.png);
+	padding: 150px 0;
+	.finance__title {
+		font-weight: 700;
+		font-size: 3.125rem;
+		color: #191e29;
+		width: 850px;
+		margin-bottom: 50px;
+	}
+	.finance__report {
+		padding: 30px;
+		background-color: #fff;
+		border-radius: 6px;
+
+		.finance__report__top {
+			display: flex;
+			gap: 20px;
+			h4 {
+				color: #80848a;
+				font-size: 1.125rem;
+				font-weight: 500;
+				margin-bottom: 10px;
+			}
+			.finance__report__top__select {
+				.finance__report__top__select__inside {
+					padding: 15px 20px;
+					background-color: #00000010;
+					margin-top: 2px;
+					select {
+						width: 70px;
+						border: none;
+						outline: none;
+						background: none;
+						color: #191e29;
+					}
+				}
+			}
+			.finance__report__top__year {
+				h4 {
+					color: #80848a;
+					font-size: 1.125rem;
+					font-weight: 500;
+				}
+				.finance__report__top__year__inside {
+					display: flex;
+					gap: 20px;
+					span {
+						padding: 15px 37px;
+						background-color: #00000010;
+						font-weight: 500;
+					}
+					.active {
+						// margin-top: 20px;
+						border: 1px solid #191e29;
+						color: #191e29;
+					}
+
+					.finance__report__top__year__inside__btn {
+						display: flex;
+						align-items: center;
+						gap: 8px;
+						padding: 14px 20px;
+						border: none;
+						outline: none;
+						box-shadow: 0px, 13.43px rgba(21, 76, 238, 0.21);
+						background-color: #191e29 !important;
+						cursor: pointer;
+						p {
+							font-size: 1.125rem;
+							font-weight: 500;
+							align-items: center;
+							color: #fff;
+						}
+					}
+				}
+			}
+		}
+		.finance__report__line {
+			width: 100%;
+			height: 1px;
+			background-color: #80848a;
+			border-radius: 5px;
+			display: block;
+			margin: 30px 0;
+		}
+		.finance__report__bottom {
+			display: flex;
+			align-items: center;
+			gap: 25px;
+			p {
+				font-size: 1.25rem;
+				font-weight: 500;
+				color: #191e29;
+			}
+			.finance__report__bottom__btn1 {
+				display: flex;
+				align-items: center;
+				gap: 12px;
+				background-color: #1d71b8;
+				padding: 14px 25px;
+				cursor: pointer;
+				box-shadow: 0px, 13.43px rgba(21, 76, 238, 0.21);
+				p {
+					color: #fff;
+					font-size: 1.125rem;
+					font-weight: 500;
+				}
+			}
+			.finance__report__bottom__btn2 {
+				display: flex;
+				align-items: center;
+				gap: 12px;
+				padding: 12.5px 25px;
+				background-color: #191e29;
+				cursor: pointer;
+				p {
+					color: #fff;
+				}
+				span {
+					margin-top: 3px;
+				}
+			}
+		}
+	}
+	.finance__announcement {
+		margin-top: 100px;
+
+		.finance__announcement__title {
+			font-size: 3.125rem;
+			font-weight: 700;
+			color: #191e29;
+			margin-bottom: 50px;
+		}
+		.finance__announcement__inside {
+			padding: 30px;
+			background-color: #fff;
+			border-radius: 6px;
+			margin-top: 10px;
+			.finance__announcement__inside__title {
+				transition: 0.2s;
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				.finance__announcement__inside__title__inside {
+					transition: 0.3s;
+				}
+				.rotate {
+					transform: rotate(180deg);
+					transition: 0.3s;
+				}
+				h3 {
+					font-weight: 700;
+					font-size: 1.5625rem;
+					// margin-bottom: 40px;
+				}
+			}
+			.finance__announcement__inside--btns {
+				display: grid;
+				grid-template-rows: 0fr;
+				overflow: hidden;
+				transition: grid-template-rows 0.2s;
+
+				.wrapper {
+					display: flex;
+					gap: 20px;
+					border: none;
+					min-height: 0;
+				}
+
+				.btns1 {
+					display: flex;
+					align-items: center;
+					gap: 12px;
+					background-color: #1d71b8;
+					padding: 14px 25px;
+					cursor: pointer;
+					box-shadow: 0px, 13.43px rgba(21, 76, 238, 0.21);
+					p {
+						color: #fff;
+						font-size: 1.125rem;
+						font-weight: 500;
+					}
+				}
+				.btns2 {
+					display: flex;
+					align-items: center;
+					gap: 12px;
+					padding: 12.5px 25px;
+					background-color: #191e29;
+					cursor: pointer;
+					p {
+						color: #fff;
+						font-size: 1.125rem;
+					}
+					span {
+						margin-top: 3px;
+					}
+				}
+				&.active {
+					grid-template-rows: 1fr;
+				}
+			}
+		}
+	}
+}
+
+.wrapper-bottom {
+	margin-top: 10px;
+}
+
+@media (max-width: 678px) {
+	.finance {
+		padding: 50px 0;
+		.finance__title {
+			font-size: 20px;
+			width: 300px;
+			margin-bottom: 45px;
+		}
+		.finance__report {
+			padding: 15px;
+			.finance__report__top {
+				position: relative;
+
+				.finance__report__top__select {
+					h4 {
+						font-size: 14px;
+					}
+					.finance__report__top__select__inside {
+						width: 80px;
+						padding: 12px 15px;
+						select {
+							width: 100%;
+							font-size: 12px;
+							option {
+								font-size: 12px;
+							}
+						}
+					}
+				}
+				.finance__report__top__year {
+					h4 {
+						font-size: 14px;
+					}
+					.finance__report__top__year__inside {
+						span {
+							padding: 0;
+							width: 40px;
+							height: 40px;
+							display: flex;
+							align-items: center;
+							justify-content: center;
+						}
+					}
+					.finance__report__top__year__inside__btn {
+						position: absolute;
+						width: 100%;
+						left: 0;
+						top: 80px;
+						display: flex;
+						justify-content: center;
+						padding: 10px !important;
+						p {
+							font-size: 14px !important;
+						}
+					}
+				}
+			}
+			.finance__report__line {
+				margin-top: 80px;
+			}
+			.finance__report__bottom {
+				display: block;
+				p {
+					font-size: 16px;
+					margin-bottom: 10px;
+				}
+
+				.finance__report__bottom__btn1 {
+					display: inline-flex;
+					align-items: center;
+					padding: 7px 13px;
+					p {
+						font-size: 14px;
+						margin-top: 10px;
+					}
+				}
+				.finance__report__bottom__btn2 {
+					display: none;
+				}
+			}
+		}
+		.finance__announcement {
+			.finance__announcement__title {
+				font-size: 25px;
+			}
+			.finance__announcement__inside {
+				padding: 15px;
+				.finance__announcement__inside__title {
+					font-size: 16px;
+				}
+				.finance__announcement__inside--btns {
+					.wrapper {
+						.btns1 {
+							padding: 6px 14px;
+							p {
+								font-size: 14px;
+							}
+						}
+						.btns2 {
+							padding: 6px 14px;
+							p {
+								font-size: 14px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
